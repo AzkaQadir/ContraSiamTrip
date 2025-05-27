@@ -1,20 +1,20 @@
 # ContraSiamTrip
 Siamese and Triplet Networks for sentence similarity using contrastive learning.
 
-Sentence Similarity with Siamese and Triplet Networks
+# Sentence Similarity with Siamese and Triplet Networks:
 This project demonstrates how to use Siamese Networks and Triplet Networks with BERT to detect semantic similarity between sentence pairs using the PAWS (Paraphrase Adversaries from Word Scrambling) dataset.
 
-📦 Installation
+# 📦 Installation:
 Install the required packages:
 
 
 pip install transformers datasets sentence-transformers faiss-cpu torchmetrics
 
 
-📚 Dataset
+# 📚 Dataset:
 The PAWS: labeled_final dataset is used, which contains pairs of sentences labeled as paraphrase (1) or not (0).
 
-🧠 Models
+# 🧠 Models:
 1. Siamese Network
 Uses BERT embeddings for both input sentences.
 
@@ -31,8 +31,8 @@ Learns embeddings such that the anchor is closer to the positive than the negati
 
 Optimized with Triplet Margin Loss.
 
-📈 Results
+# 📈 Results:
 Both models report classification performance using precision, recall, F1-score, and confusion matrices for Siamese, while Triplet is evaluated based on embedding quality.
 
-📌 Disclaimer:
+# 📌 Disclaimer:
 This project was developed as part of a personal learning journey in NLP. As such, it may include experimental implementations, non-optimized code, or areas for improvement. Feedback, suggestions, and contributions are always welcome!
